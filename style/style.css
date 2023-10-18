@@ -1,0 +1,36 @@
+header{
+    height: 300px;
+    background-color: #93B5C9;
+}
+
+main{
+    position: static;
+    height:100%;
+}
+
+section{
+    margin: 20px 0;
+    background-color: #AB2849;
+    height: 200px;
+    width: 70%;
+}
+
+aside{
+    position: absolute;
+    height: 90%;
+    width: 30%;
+    right: 0;
+}
+
+section:nth-child(2){
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+footer{
+    margin: 10px 30px;
+    height: 150px;
+    background-color: #AB2849;
+}
